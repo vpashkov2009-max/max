@@ -4,7 +4,9 @@ from pygame import *
 mixer.init()
 font.init()
 from random import randint
-
+#музыка
+mixer.music.load('Bullets_For_My_Valentine_-_Tears_Dont_Fall_(SkySound.cc).mp3')
+mixer music.play()
 #окно
 win = display.set_mode((700, 500))
 game = True
